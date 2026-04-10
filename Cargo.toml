@@ -1,0 +1,8 @@
+[package]
+name = "cuda-state-machine"
+version = "0.1.0"
+edition = "2021"
+description = "State machines — finite state machines, hierarchical states, guards, transitions, and state persistence for agent behavior"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
